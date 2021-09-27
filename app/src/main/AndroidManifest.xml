@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LibraryPractice_review">
         <activity
+            android:name=".PhotoViewActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
