@@ -27,14 +27,11 @@ class MainActivity : AppCompatActivity() {
                     val myIntent = Intent(Intent.ACTION_CALL, myUri)
                     startActivity(myIntent)
                 }
-                //권한 거절 시 -> Toast
+                //권한 거절 시 -> Toast 띄우기
                 override fun onPermissionDenied(deniedPermissions: MutableList<String>?) {
                     Toast.makeText(this@MainActivity, "전화 연결 불가. 전화 연결 권환이 없습니다.", Toast.LENGTH_SHORT).show()
                 }
             }
-
-
         }
-
     }
 }
