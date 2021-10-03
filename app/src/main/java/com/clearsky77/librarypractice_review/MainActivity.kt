@@ -20,7 +20,10 @@ class MainActivity : AppCompatActivity() {
 // 이미지 바로 가져오기(Library)
         val imgeURL = "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTAyMDlfMjQz%2FMDAxNjEyODY0NDY0OTEy.CyEmVaDiUjBLPASsOWz-1P-dpWh2GbXrtZggxsMRpBsg.9bNocgGaBJU1mFYm7D6PrNaN_TtU5y8dpU8DlsprWB8g.JPEG.dochi20%2F%25B9%25DF%25B7%25BB%25C6%25BC%25BF%25C2.jpg"
         Glide.with(this).load(imgeURL).into(latestNewsImg)
-
+        val imgeURL2 = "https://search.pstatic.net/common/?src=http%3A%2F%2Fpost.phinf.naver.net%2FMjAyMTA3MTVfMjU4%2FMDAxNjI2MzI2MDYzNDkx.7UFt3Yyix-OK2XKL0ARLgwoXFn9snhC-ZAEzUgbRNzQg.hn0pu8hWaxGuDPF5UygE4lRFcACiPbU16SheITAN2UQg.PNG%2FIuL2i1ZtrntAnQgbE2Ko-bQ4bhts.jpg&type=sc960_832"
+        Glide.with(this).load(imgeURL2).into(latestNewsImg2)
+        val imgeURL3 = "https://search.pstatic.net/common/?src=http%3A%2F%2Fpost.phinf.naver.net%2FMjAxOTA0MDJfMTg1%2FMDAxNTU0MTg3NTY0ODIy.FYknc4fFRLPjehEACpb89a3aNbcpITfKx4uyQFC77d4g.rl2vAxnHfB_gnx3ezAOK8qvuzg08F6Vtch-9p-edCYQg.JPEG%2FITG636IM3VPsOdKSmYQmVFLS3aRs.jpg"
+        Glide.with(this).load(imgeURL3).into(latestNewsImg3)
 
 // 사진 클릭시 사진 상세 화면으로 Intent
         profilePhotoImg.setOnClickListener {
